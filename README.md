@@ -13,10 +13,10 @@ Requires fswebcam and calls directly via subprocess call
 Simply use raspi_usb_camera_pic()
 
 # To run
-python snapshot.py [-usb]
+python snapshot.py
 	-Note: will request authorization information
 
-python snapshot.py auth.txt [-usb]
+python snapshot.py auth.txt
 	-Note: auth.txt should have the following information (each on a separate line)
 		Consumer Key
 		Consumer Secret
